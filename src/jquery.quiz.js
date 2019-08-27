@@ -76,7 +76,7 @@
           quizHtml += '<div class="question-container">';
           //quizHtml += '<p class="question" style="margin-top:18px; font-size: 14px;">' + question.q + '</p>';
           quizHtml += `<img class="img-responsive" style="margin-bottom: 20px !important; margin-top: 24px !important;" src="../img/q${++img}.jpg">`;
-          quizHtml += '<p class="question" style="font-size: 11px !important; text-align: center; margin-left:8px; padding-bottom: 8px;">How many differences can you spot?</p>';
+          quizHtml += '<p class="question" style="font-size: 13px !important; text-align: center; margin-left:8px; padding-bottom: 8px;">How many differences can you spot?</p>';
           quizHtml += '<ul class="answers">';
           $.each(question.options, function (index, answer) {
            quizHtml += '<li><a href="#" id="b" class="a" data-index="' + index + '">' + answer + '</a></li>';
